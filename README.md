@@ -1,36 +1,35 @@
-Native Stack Navigation:
-Weather app using native stack navigation to navigate between two screens: the home screen and the 7-day forecast screen.
+Welcome Screen with Reanimated:
+Starting with an animated welcome screen.
 
-Home Screen:
-Displays current weather.
-Shows hourly forecast below.
-Includes a button to navigate to the 7-day forecast screen.
+Fully Animated with Reanimated:
+Utilizing Reanimated throughout the app ensures smooth and fluid animations, enhancing the overall user experience.
 
-7-Day Forecast Screen:
-Displays the forecast for the next 7 days.
+Pixabay API Integration:
+Integrating the Pixabay API provides access to a vast collection of high-quality wallpapers for users to browse and download.
 
-Search Bar:
-Implemented with Reanimated.
-Allows users to search for any city.
-Provides recommendations for searched cities.
-Displays search history.
-Includes a "Use Current City" button to fetch weather data based on the device's location.
-Supports swipe-to-delete functionality for search history.
+Home Screen with Masonry Layout:
+The home screen featuring a masonry layout using FlashList offers an aesthetically pleasing way to display wallpapers.
 
-Expo Notifications:
-Sends a notification every day at 7 am with the weather conditions for the current city.
+Search Functionality and Categories:
+Enabling users to search for wallpapers and browse through categories helps them find wallpapers that suit their preferences.
 
-Custom Fonts:
-Integrates custom fonts to enhance the app's visual appeal.
+Filtering Options with Bottom Sheet Modal:
+Adding filters such as colors, order, orientation, and type via a bottom sheet modal enhances user control and customization.
 
-Animations:
-Utilizes Reanimated for fluid animations throughout the app.
+Applied Pagination:
+Implementing pagination ensures a smooth browsing experience, allowing users to load more wallpapers as they scroll down.
 
-React Native Progress:
-Incorporates React Native Progress to visualize data or loading states.
+Settings Toggle:
+Including settings like safe search and editor choice toggle provides users with additional control over their browsing experience.
 
-AsyncStorage:
-Stores search history and current city using AsyncStorage for persistent data storage.
+Wallpaper Preview Screen:
+Offering a wallpaper preview screen with options to go back, download, and share wallpapers.
 
-Responsive Design:
-Implements React Native Responsive Library for ensuring the app is responsive across different screen sizes
+Context API for State Management:
+Utilizing the Context API for state management.
+
+Full Responsiveness:
+Implementing full responsiveness ensures that your app adapts flawlessly to various screen sizes using react native responsive.
+
+Performance Optimization:
+Optimizing the app for performance ensures that it runs smoothly and efficiently, providing users with a seamless experience.
